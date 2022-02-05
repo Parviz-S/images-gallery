@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Navbar } from "react-bootstrap";
 
 const headerStyle = {
-  backgroundColor: "#a2aaad"
+  backgroundColor: "#a2aaad",
 };
 
 const Header = ({ title }) => {
