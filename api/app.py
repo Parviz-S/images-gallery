@@ -25,9 +25,6 @@ app.config["DEBUG"] = DEBUG
 
 @app.route("/new-image")
 def new_image():
-    """
-    Function that that sends request to Unsplash to get random image with a keyword
-    """
     word = request.args.get("query")
     headers = {"" "Accept-Version": "v1", "Authorization": "Client-ID " + UNSPLASH_KEY}
     params = {"query": word}
